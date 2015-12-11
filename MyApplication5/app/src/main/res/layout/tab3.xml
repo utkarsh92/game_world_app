@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blur">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="So pack your bags and get ready to leave the real world, as you'll be entering the...."
+        android:textSize="35dp"
+        android:textColor="#cccccc"
+        android:textStyle="italic"
+        android:layout_marginTop="130dp" />
+
+
+</RelativeLayout>

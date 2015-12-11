@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ppView"
+        android:src="@drawable/avatar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+    </com.android.volley.toolbox.NetworkImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameView"
+        android:text="FName LName"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="140dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unameView"
+        android:text="username123"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="20dp"
+        android:textColor="#005399"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailView"
+        android:text="emailid@gmail.com"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="140dp"
+        android:textStyle="italic"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Followers"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Following"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fersView"
+        android:text="50"
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fingView"
+        android:text="69"
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Age:"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/ageView"-->
+        <!--android:text="20"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:textSize="20dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex:"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sexView"
+        android:text="Male"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB:"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dobView"
+        android:text="12/03/1995"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="88dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country:"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryView"
+        android:text="India"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/descView"
+        android:text="blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"/>
+
+    <!--<Button-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Edit Profile"-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_below="@+id/descView"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="20dp"/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/editText9"-->
+        <!--android:layout_below="@+id/descView"-->
+        <!--android:layout_toEndOf="@+id/textView" />-->
+
+</RelativeLayout>
+</ScrollView>

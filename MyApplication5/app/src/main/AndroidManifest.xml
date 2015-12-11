@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prakhargupta.myapplication5"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--<android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<android:uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <!--<android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Tabs.Tab_Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tabs.Login_Page" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sign_Up_Page" />
+
+        <activity
+            android:name="com.example.prakhargupta.myapplication5.Post_Add"
+            android:label="New Post"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+
+        <activity
+            android:name=".drawer_activities.Profile"
+            android:label="My Profile"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+        <activity
+            android:name=".drawer_activities.Interests"
+            android:label="My Interests"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+        <activity
+            android:name=".drawer_activities.Contact_Us"
+            android:label="Top Discussions"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+        <activity
+            android:name=".drawer_activities.Games"
+            android:label="My Games"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+        <activity
+            android:name=".Expand_Post"
+            android:label="Expand"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+        <activity
+            android:name=".drawer_activities.Followers"
+            android:label="Followers"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.drawer_activities.Profile" >>
+        </activity>
+        <activity
+            android:name=".drawer_activities.Following"
+            android:label="Following"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.drawer_activities.Profile" >>
+        </activity>
+        <activity
+            android:name=".About_Us"
+            android:label="About Us"
+            android:parentActivityName="com.example.prakhargupta.myapplication5.MainActivity" >>
+        </activity>
+        <activity
+            android:name=".drawer_activities.Others_Profile"
+            android:label="Profile">>
+        </activity>
+    </application>
+
+</manifest>

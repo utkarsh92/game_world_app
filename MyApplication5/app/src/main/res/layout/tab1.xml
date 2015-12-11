@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/red_city">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WELCOME!"
+        android:textSize="40dp"
+        android:textColor="#fd482f"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Gone are the days when you had to ask your friends about the difficulties you faced while playing video games"
+        android:textSize="20dp"
+        android:textColor="#2c4e67"
+        android:textStyle="italic"
+        android:layout_marginTop="250dp" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Now you can ask questions on our online platform with 1000's of others gamers around the world!"
+        android:textSize="20dp"
+        android:textColor="#2c4e67"
+        android:textStyle="italic"
+        android:layout_marginTop="355dp" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not only this, you can also be a part of the community and help others :)"
+        android:textSize="20dp"
+        android:textColor="#2c4e67"
+        android:textStyle="italic"
+        android:layout_marginTop="460dp" />
+
+
+</RelativeLayout>

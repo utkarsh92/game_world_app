@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_refresh" android:icon="@android:drawable/ic_media_play"
+            android:title="Refresh" />
+        <item android:id="@+id/nav_interests" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="My Interests" />
+        <!--<item android:id="@+id/nav_games" android:icon="@android:drawable/ic_menu_view"-->
+            <!--android:title="Games" />-->
+        <item android:id="@+id/nav_my_profile" android:icon="@android:drawable/ic_dialog_info"
+            android:title="My Profile" />
+        <!--<item android:id="@+id/nav_settings" android:icon="@android:drawable/ic_menu_manage"-->
+            <!--android:title="Settings" />-->
+        <item android:id="@+id/nav_logout" android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_contact" android:icon="@android:drawable/ic_menu_help"
+                android:title="Contact Us" />
+            <item android:id="@+id/nav_website" android:icon="@android:drawable/ic_menu_send"
+                android:title="Visit our website" />
+        </menu>
+    </item>
+
+</menu>

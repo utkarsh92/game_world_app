@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/feed_bg">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:id="@+id/checkBox"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:checked="true"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Article"
+            android:id="@+id/checkBox2"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="220dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter Title:"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:id="@+id/newTitle"
+            android:hint="Enter title..."
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg_box"
+            android:maxLength="500"
+            android:scrollbars="vertical"
+            android:padding="7dp"
+            android:overScrollMode="ifContentScrolls"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter Content:"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:id="@+id/newContent"
+            android:hint="Enter content..."
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg_box"
+            android:maxLength="2000"
+            android:scrollbars="vertical"
+            android:padding="7dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp">
+
+        <AutoCompleteTextView
+            android:layout_width="255dp"
+            android:layout_height="35dp"
+            android:hint="Enter tags..."
+            android:id="@+id/autoTags"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg_box"
+            android:padding="7dp"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:id="@+id/addTag"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_marginLeft="290dp"
+            android:background="@drawable/bg_box"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+            android:paddingTop="@dimen/feed_item_padding_top_bottom"/>
+
+        <com.ns.developer.tagview.widget.TagCloudLinkView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tagView"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:padding="7dp"
+            android:background="@drawable/bg_box"
+            app:isDeletable="true"
+            app:tagLayoutColor="#5d6eea"
+            app:tagTextSize="8sp"
+            app:tagTextColor="#dbd5f9"
+            app:deletableTextSize="8sp"
+            app:deletableTextColor="#dbd5f9"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Add"
+        android:id="@+id/addPost"
+        android:background="@drawable/bg_box2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
+</ScrollView>

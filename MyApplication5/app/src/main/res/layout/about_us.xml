@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_wallpaper"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/utkarsh"
+            android:src="@drawable/utkarsh"
+            android:scaleType="centerCrop" />
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Utkarsh Indolia"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="App Developer"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/prakhar"
+            android:src="@drawable/prakhar"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="260dp"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Prakhar Gupta"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Backend Developer"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/yugal"
+            android:src="@drawable/yugal"
+            android:scaleType="centerCrop" />
+
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yugal Jain"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Frontend Developer"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/dishank"
+            android:src="@drawable/dishank"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="260dp"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dishank Jain"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Frontend Developer"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#cccccc"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

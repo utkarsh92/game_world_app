@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/matrix_art">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You can also download wallpapers of your favourite games to make your desktop look cooler cx"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:textColor="#cccccc"
+        android:layout_marginTop="100dp"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Plus there are many video walkthroughs on our site which can help you during your gameplays"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:textColor="#cccccc"
+        android:layout_marginTop="280dp"/>
+
+
+</RelativeLayout>
